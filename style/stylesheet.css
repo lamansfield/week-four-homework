@@ -1,0 +1,103 @@
+* { margin: 0;
+    padding: 0;}
+* {font-family: sans-serif;}
+
+body{
+    width: 100%;
+    background: white;
+}
+
+a:link {
+    color:white;
+    text-decoration: none;
+}
+
+header {background: white;}
+
+header h1 {
+    color: hsla(265,100%,70%,1);
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+header li {
+    display: inline-block;
+    padding: .5rem 1rem;
+    border-left: 2px solid purple;
+    color: white;
+    background:  hsla(265,100%,70%,0.5);
+    width: 10.18%;}
+header li a {color:white;
+text-align: center;
+}
+
+header li:first-of-type {border-left: none;}
+#top-nav {text-align: center}
+
+nav {
+    border-top: 0;
+    border-bottom: 0 solid hsla(265,100%,70%,1);
+    background: hsla(265,100%,70%,1);
+    width: 100%
+}
+
+#left-nav {
+    padding: 0;
+    border: 1px;
+    background: hsla(265,100%,70%,0.5);
+    text-align: center;
+    color: white;
+    width: 30%;
+    float: left;
+    height: 500px;
+}
+#left-nav a {color: white;}
+#left-nav li {padding: 1em;
+list-style: none;}
+section {width: 100%;}
+figure {text-align: center;}
+#main-content {
+    background: hsla(160,20%,80%,0.5);
+    float: right;
+    width: 70%;
+    height: 500px;
+    text-align:center;
+}
+
+figure {text-align: center;}
+
+article {
+    background-color: hsla(210,70%,50%,1);
+    border-bottom: 10px solid white;
+    padding: 0;
+    text-align: center;
+ }
+
+article figure img {
+    padding: 50px;
+    background-color:white;
+    }
+   
+#veggies {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+figcaption {
+    font-size: 1em;
+    text-align: center;
+    padding-top: 30px;
+    display:block;
+    width: 60%;
+    position: absolute;
+}
+
+/*.clearfloat */
+
+#bottom-footer {
+    clear: both;
+    text-align: center;
+}
+
+
